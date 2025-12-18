@@ -4,58 +4,145 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luke Volm - Projects</title>
+
   <style>
-    body { font-family: Calibri, sans-serif; margin: 0; padding: 40px; line-height: 1.6; }
-    a { color: #1a73e8; text-decoration: none; font-weight: 600; }
-    a:hover { text-decoration: underline; }
-    h2 { margin-top: 28px; }
-    .proj { margin: 14px 0; }
-    .desc { color: #333; font-weight: 400; }
+    body {
+      font-family: Calibri, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      padding: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      color: skyblue;
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile h2 {
+      margin: 10px 0 5px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 15px 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: skyblue;
+    }
+
+    .content {
+      margin-left: 300px;
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid skyblue;
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
+    .proj {
+      margin: 12px 0;
+    }
+
+    .proj a {
+      color: #1a73e8;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .proj a:hover {
+      text-decoration: underline;
+    }
+
+    .desc {
+      color: #333;
+      margin-top: 4px;
+    }
   </style>
 </head>
+
 <body>
+  <div class="sidebar">
+    <div class="profile">
+      <h2><font color="white">Luke Volm</font></h2>
+      <address>
+        <a href="mailto:lv972423@wcupa.edu">lv972423@wcupa.edu</a><br>
+        <a href="tel:+16109062097">(610) 906-2097</a>
+      </address>
+    </div>
 
-  <p><a href="../">← Back to Resume</a></p>
-
-  <h1>Projects & Portfolio</h1>
-
-  <h2>Sports Analytics</h2>
-  <div class="proj">
-    <a href="https://rpubs.com/lvolm/1381691" target="_blank">
-      Predicting MLB Outcomes with Team Batting Average vs. Pitcher
-    </a>
-    <div class="desc">MLB analytics project using team batting performance vs opposing pitchers.</div>
+    <nav>
+      <ul>
+        <li><a href="../">Back to Resume</a></li>
+        <li><a href="./">Projects & Portfolio</a></li>
+      </ul>
+    </nav>
   </div>
 
-  <h2>Forecasting & Time Series</h2>
-  <div class="proj">
-    <a href="https://rpubs.com/lvolm/1374897" target="_blank">
-      Forecasting U.S. Retail Alcohol Sales Using Exponential Smoothing
-    </a>
-    <div class="desc">Time series forecasting using exponential smoothing methods in R.</div>
-  </div>
+  <div class="content">
+    <section>
+      <h2>Projects & Portfolio</h2>
 
-  <div class="proj">
-    <a href="https://rpubs.com/lvolm/1372524" target="_blank">
-      Forecasting U.S. Gasoline Prices Using Time Series Decomposition
-    </a>
-    <div class="desc">Decomposition-based forecasting and trend/seasonality analysis in R.</div>
-  </div>
+      <h3>Forecasting & Time Series</h3>
+      <div class="proj">
+        <a href="https://rpubs.com/lvolm/1374897" target="_blank">
+          Forecasting U.S. Retail Alcohol Sales Using Exponential Smoothing
+        </a>
+        <div class="desc">Time series forecasting using exponential smoothing methods in R.</div>
+      </div>
 
-  <h2>Statistical Modeling</h2>
-  <div class="proj">
-    <a href="https://rpubs.com/lvolm/1366552" target="_blank">
-      Quantifying the Effect of Temperature and Precipitation on Manhattan Bridge Cyclist Traffic
-    </a>
-    <div class="desc">Modeled cyclist counts using weather predictors (temperature/precipitation) in R.</div>
-  </div>
+      <div class="proj">
+        <a href="https://rpubs.com/lvolm/1372524" target="_blank">
+          Forecasting U.S. Gasoline Prices Using Time Series Decomposition
+        </a>
+        <div class="desc">Decomposition-based forecasting and trend/seasonality analysis in R.</div>
+      </div>
 
-  <div class="proj">
-    <a href="https://rpubs.com/lvolm/1361001" target="_blank">
-      Modeling Customer Engagement in Retail Promotions Through Logistic Regression
-    </a>
-    <div class="desc">Logistic regression modeling to predict customer engagement and interpret key drivers.</div>
-  </div>
+      <h3>Statistical Modeling</h3>
+      <div class="proj">
+        <a href="https://rpubs.com/lvolm/1361001" target="_blank">
+          Modeling Customer Engagement in Retail Promotions Through Logistic Regression
+        </a>
+        <div class="desc">Logistic regression model to predict customer engagement and interpret key drivers.</div>
+      </div>
 
+      <!-- Add more projects below by copying a .proj block -->
+    </section>
+  </div>
 </body>
 </html>
