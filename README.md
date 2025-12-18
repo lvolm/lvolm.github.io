@@ -1,11 +1,12 @@
-# Luke Volm – Portfolio Website
+# Luke Volm – Projects
 
-This repository hosts my personal portfolio website built with GitHub Pages.
+## Forecasting & Time Series
+- [Forecasting U.S. Retail Alcohol Sales Using Exponential Smoothing](https://rpubs.com/lvolm/1374897)
+- [Forecasting U.S. Gasoline Prices Using Time Series Decomposition](https://rpubs.com/lvolm/1372524)
 
-The site highlights projects in:
-- Statistical modeling
-- Forecasting and time series analysis
-- Data visualization
-- Sports and business analytics
+## Statistical Modeling
+- [Modeling Customer Engagement in Retail Promotions Through Logistic Regression](https://rpubs.com/lvolm/1361001)
+- [Quantifying the Effect of Temperature and Precipitation on Manhattan Bridge Cyclist Traffic](https://rpubs.com/lvolm/1366552)
 
-Live site: https://lvolm.github.io
+## Sports Analytics
+- [Predicting MLB Outcomes with Team Batting Average vs Pitcher](https://rpubs.com/lvolm/1381691)
