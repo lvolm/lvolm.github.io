@@ -10,3 +10,5 @@
 
 ## Sports Analytics
 - [Predicting MLB Outcomes with Team Batting Average vs Pitcher](https://rpubs.com/lvolm/1381691)
+- [Public Betting and Money Distribution in NFL Spread Outcomes](https://rpubs.com/lvolm/1385842)
+
