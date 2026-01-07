@@ -11,4 +11,5 @@
 ## Sports Analytics
 - [Predicting MLB Outcomes with Team Batting Average vs Pitcher](https://rpubs.com/lvolm/1381691)
 - [Public Betting and Money Distribution in NFL Spread Outcomes](https://rpubs.com/lvolm/1385842)
+- [Which NFL Defenses Performed the Worst Against Workhorse Rushers?] (https://rpubs.com/lvolm/1386098)
 
